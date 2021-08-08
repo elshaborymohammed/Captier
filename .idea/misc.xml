@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="2.7874015748031495" />
+        <entry key="app/src/delivery/res/layout/fragment_orders.xml" value="0.19791666666666666" />
+        <entry key="app/src/delivery/res/layout/item_order.xml" value="0.35444330949948927" />
+        <entry key="app/src/delivery/res/layout/item_section.xml" value="0.34014300306435136" />
+        <entry key="app/src/driver/res/layout/fragment_oders.xml" value="0.346875" />
+        <entry key="app/src/driver/res/layout/fragment_orders.xml" value="0.346875" />
+        <entry key="app/src/driver/res/layout/item_order.xml" value="0.346875" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.3277777777777778" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3277777777777778" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.346875" />
+        <entry key="app/src/main/res/layout/fragment_product.xml" value="0.346875" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.3490740740740741" />
+        <entry key="app/src/product/res/layout/fragment_cart.xml" value="0.346875" />
+        <entry key="app/src/product/res/layout/fragment_orders.xml" value="0.35444330949948927" />
+        <entry key="app/src/product/res/layout/fragment_product.xml" value="0.346875" />
+        <entry key="app/src/product/res/layout/item_cart.xml" value="0.35444330949948927" />
+        <entry key="app/src/product/res/layout/item_loading.xml" value="0.2518518518518518" />
+        <entry key="app/src/product/res/layout/item_product.xml" value="0.35444330949948927" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
