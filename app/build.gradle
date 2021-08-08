@@ -43,28 +43,6 @@ android {
             dimension "app"
             applicationIdSuffix ".delivery"
         }
-
-//        dev {
-//            dimension "api"
-//            buildConfigField('String', 'APP_ID', '"79603"')
-//            buildConfigField('String', 'AUTH_KEY', '"HZn3cxT36xsFKMP"')
-//            buildConfigField('String', 'AUTH_SECRET', '"MLY7maO3EyA5BxG"')
-//            buildConfigField('String', 'ACCOUNT_KEY', '"nj2ZjyskGRegAGbT9xh4"')
-//        }
-//        stage {
-//            dimension "api"
-//            buildConfigField('String', 'APP_ID', '"79604"')
-//            buildConfigField('String', 'AUTH_KEY', '"2LfGHE9gcuFxePe"')
-//            buildConfigField('String', 'AUTH_SECRET', '"uzSNm2PwFznUzYM"')
-//            buildConfigField('String', 'ACCOUNT_KEY', '"nj2ZjyskGRegAGbT9xh4"')
-//        }
-//        production {
-//            dimension "api"
-//            buildConfigField('String', 'APP_ID', '"85707"')
-//            buildConfigField('String', 'AUTH_KEY', '"7gtbuNjSBHcbOb2"')
-//            buildConfigField('String', 'AUTH_SECRET', '"be4KE8v3JGw4p7D"')
-//            buildConfigField('String', 'ACCOUNT_KEY', '"BJnYmyrbbNM9on3np4tc"')
-//        }
     }
 
     compileOptions {
@@ -93,9 +71,9 @@ dependencies {
     //endregion
 
     //region Room
-    implementation "androidx.room:room-runtime:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"
-    implementation "androidx.room:room-rxjava3:$room_version"
+    productImplementation "androidx.room:room-runtime:$room_version"
+    kaptProduct  "androidx.room:room-compiler:$room_version"
+    productImplementation "androidx.room:room-rxjava3:$room_version"
     //endregion
 
     //region Navigation
@@ -105,7 +83,6 @@ dependencies {
 
     //region Dagger Hilt
     implementation "com.google.dagger:hilt-android:$hilt_version"
-//    implementation 'androidx.databinding:databinding-common:7.0.0'
     kapt "com.google.dagger:hilt-compiler:$hilt_version"
     //endregion
 
